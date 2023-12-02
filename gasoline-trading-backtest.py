@@ -16,7 +16,8 @@ from sklearn.model_selection import train_test_split, KFold, cross_validate
 from feature_functions import Binarizer, return_proba
 from pandas_market_calendars import get_calendar
 
-fmp_api_key = "0f1bb59009e6ef4747289a60586bde4f"
+# API Key: https://site.financialmodelingprep.com/developer/docs/dashboard
+fmp_api_key = "32da2272d21a9746225ad0177a6464af"
 polygon_api_key = "KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3"
 calendar = get_calendar("NYSE")
 
